@@ -1,12 +1,11 @@
 [build-system]
 requires = [
-    "setuptools ==65.5.1",
+    "setuptools >=61.0.0",
     "wheel",
-    #"oldest-supported-numpy",
-    "numpy ==1.25.2",
+    "oldest-supported-numpy", 
     "packaging",
     "py-cpuinfo",
-    "Cython ==0.29.36",
+    "Cython >=0.29.32",
     "blosc2 ==2.2.6"
 ]
 build-backend = "setuptools.build_meta"
