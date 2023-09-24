@@ -5,7 +5,7 @@ requires = [
     "oldest-supported-numpy", 
     "packaging",
     "py-cpuinfo",
-    "Cython >=0.29.32",
+    "Cython ==0.29.35",
     "blosc2 ==2.2.6"
 ]
 build-backend = "setuptools.build_meta"
